@@ -1,0 +1,55 @@
+NEWTON SECOND LAW
+----------------------------
+STORE "mass" with 600
+STORE "acceleration" with 2
+STORE "output"
+
+output = mass * acceleration
+
+display "output"
+
+1. simpan "mass" dengan 600
+2. simpan "acceleration" dengan 2
+3. simpan output
+4. kalikan "mass" dengan "acceleration" yang ditampung di "output"
+5. display "output"
+
+
+TAHUN KABISAT
+----------------------------
+STORE "year"
+IF((year % 4 == 0 && year % 100 !== 0) && (year % 100 == 0 && year % 400 == 0))
+	DISPLAY 'Tahun Kabisat'
+ELSE
+	DISPLAY 'Bukan Tahun Kabisat'
+	
+1. simpan "year"
+2. jika year dibagi 4 = 0 dan year dibagi 100 != 0 dan yar dibagi 400 = 0, lakukan 'Tahun kabisat' jika tidak 'bukan tahun kabisat'
+
+LAUNDRY DAY
+----------------------------
+STORE "pakaianKotor" with 0
+WHILE "pakaianKotor <= 20"
+	ADD "pakaianKotor" by 1
+DO 'nyalakan mesin'
+
+1. simpan pakaian kotor dengan 0
+2. ulangi step 3 sampai mencapai 20, setelah itu lanjut ke step 4
+3. tambah pakaian kotor dengan 1 hingga mencapai 20
+4. lakukan 'nyalakan mesin'
+
+
+PERIKSA KUKU
+----------------------------
+STORE "murid" with 1
+WHILE kukuMurid <= 40
+	ADD "murid" by 1
+	IF "murid" = "kuku panjang"
+		DO 'hukum'
+	ELSE
+		DO 'puji'
+		
+1. simpan murid dengan 1
+2. ulangi step 3 sampai mencapai 40. stop jika sudah 40 lalu lanjut ke step 4
+3. tambah murid dengan 1 hingga mencapai 40 
+4. jika murid sama dengan kuku panjang, lakukan 'hukum' jika tidak 'puji'
